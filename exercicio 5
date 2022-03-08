@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num[10]
+		escreva("digite 10 numeros inteiros: ")
+		para(inteiro i = 0 ;i<10;i++){
+		leia(num[i])
+	}
+	para(inteiro i=0;i<10;i++){
+		se(num[i]%2==0){
+			escreva("o numero par ",num[i],"esta na posiçao ",i,"do vetor.","\n")
+		}
+	}
+}
+}
